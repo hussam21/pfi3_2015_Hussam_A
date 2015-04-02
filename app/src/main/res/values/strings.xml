@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<string-array name="myQuotes">
+
+    <item>@string/quote1</item>
+    <item>@string/quote2</item>
+    <item>@string/quote3</item>
+
+
+</string-array>
+    <string name="quote1">"These aren't the droids you're looking for."</string>
+    <string name="quote2">"You're a Jedi Knight, aren't you?"</string>
+    <string name="quote3">"Keep your concentration here and now, where it belongs." </string>
+
+</resources>
