@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.i("Testing", "onCreate");
     }
 
 
@@ -46,7 +47,7 @@ public class MainActivity extends Activity {
     }
 
     public void click(View v){
-        Log.i("Testing", "Clicking");
+        Log.i("myApp", "ButtonClicked");
 
 
         String[] myQuotes = getResources().getStringArray(R.array.myQuotes);
@@ -54,15 +55,38 @@ public class MainActivity extends Activity {
         next=r.nextInt(myQuotes.length);
 
         myText.setText(myQuotes[next]);
-//next=1+next;
-        //if(next>2){
-          //  next=0;
-
-        //}
 
 
 
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("Testing", "onStart");
+    }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("Testing", "onStop");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("Testing", "onPause");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("Testing", "onResume");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("Testing", "onDestroy");
+    }
 }
