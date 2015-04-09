@@ -6,4 +6,19 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Favorites">Favoritresor</string>
+    <string name="date">Tid/Datum</string>
+    <string name="Now">Just nu</string>
+    <string name="Change">Ändra</string>
+    <string name="Ankomst">Ankomst</string>
+    <string name="Avgång">Avgång</string>
+    <string name="Trafikslag">Trafikslag</string>
+    <string name="Ändra">Ändra</string>
+    <string name="Bevakningar">Bevakningar</string>
+    <string name="Från">Från</string>
+    <string name="Till">Till</string>
+    <string name="Search">Reseplanerare</string>
+    <string name="Table">Tidtabeller</string>
+    <string name="Clock">Hållplatssök</string>
+    <string name="Paper">Biljetter</string>
 </resources>

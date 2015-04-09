@@ -1,5 +1,8 @@
 package com.example.hussam.assignment2;
 
+import android.app.FragmentManager;
+
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -15,42 +18,20 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.fragment_blank_fragment2);
 
-        final View Knapp=findViewById(R.id.click1);
+        FragmentManager fm = getFragmentManager();
 
-        Knapp.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
+        FragmentTransaction ft = fm.beginTransaction();
+        BlankFragment bf = new BlankFragment();
 
-                    Log.i("Click1", "Click");
-            }
-        });
+        ft.replace(R.id.Start1, bf);
+        ft.commit();
 
-        final View Knapp2=findViewById(R.id.click2);
 
-        Knapp2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
 
-                Log.i("Click2", "Click2");
-            }
-        });
-        final View Knapp3=findViewById(R.id.click3);
-
-        Knapp3.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-                Log.i("Click3", "Click3");
-            }
-        });
-        final View Knapp4=findViewById(R.id.click4);
-
-        Knapp4.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-                Log.i("Click4", "Click4");
-            }
-        });
 
 
 
