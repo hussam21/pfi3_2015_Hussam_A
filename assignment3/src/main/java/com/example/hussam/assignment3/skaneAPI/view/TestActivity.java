@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import com.example.hussam.assignment3.Reseplaneraren;
 import   com.example.hussam.assignment3.skaneAPI.R; //se.mah.k3.skaneAPI.R;
 import com.example.hussam.assignment3.skaneAPI.control.Constants;//se.mah.k3.skaneAPI.control.Constants;
 import com.example.hussam.assignment3.skaneAPI.model.Journey; //se.mah.k3.skaneAPI.model.Journey;

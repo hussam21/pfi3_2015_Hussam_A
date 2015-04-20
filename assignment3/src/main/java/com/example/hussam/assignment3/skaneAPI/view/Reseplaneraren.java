@@ -1,4 +1,4 @@
-package com.example.hussam.assignment3;
+package com.example.hussam.assignment3.skaneAPI.view;
 
 import android.app.Activity;
 import android.net.Uri;
