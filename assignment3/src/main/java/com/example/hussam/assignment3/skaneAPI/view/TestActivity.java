@@ -19,7 +19,7 @@ import com.example.hussam.assignment3.skaneAPI.model.Journey; //se.mah.k3.skaneA
 import  com.example.hussam.assignment3.skaneAPI.model.Journeys;//se.mah.k3.skaneAPI.model.Journeys;
 import  com.example.hussam.assignment3.skaneAPI.xmlparser.Parser; //se.mah.k3.skaneAPI.xmlparser.Parser;
 
-public class TestActivity extends Activity {
+public class 5TestActivity extends Activity {
     private  ArrayList<Journey> journeyList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
