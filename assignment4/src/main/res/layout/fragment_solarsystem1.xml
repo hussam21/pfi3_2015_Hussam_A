@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hussam.assignment4.Solarsystem1"
+    android:id="@+id/Planeter"
+    android:background="#000">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Mercerius"
+        android:layout_gravity="left|top"
+        android:background="@drawable/mercery" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Venus"
+        android:layout_gravity="center_horizontal|top"
+        android:autoText="false"
+        android:background="@drawable/venus" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Jorden"
+        android:layout_gravity="right|top"
+        android:background="@drawable/earth" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Mars"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/mars" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Jupiter"
+        android:layout_gravity="center"
+        android:background="@drawable/jupiter" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Saturnus"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/saturn" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Uranus"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/uranus" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Neptunus"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/neptune" />
+
+</FrameLayout>
