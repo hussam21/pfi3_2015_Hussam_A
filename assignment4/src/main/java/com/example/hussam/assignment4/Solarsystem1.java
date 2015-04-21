@@ -27,13 +27,18 @@ public class Solarsystem1 extends Fragment implements AdapterView.OnItemSelected
 
     View v = inflater.inflate(R.layout.fragment_solarsystem1, container, false);
 
-
-
-
-
             return v;
 
     }
 
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
+
+    }
 }
