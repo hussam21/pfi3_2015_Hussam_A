@@ -1,4 +1,4 @@
-package com.example.hussam.assignment3.skaneAPI.xmlparser;
+package com.example.hussam.assignment3.skaneAPI.control;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -87,4 +87,3 @@ public class XMLParser {
         return this.getElementValue(n.item(0));
     }
 }
-
